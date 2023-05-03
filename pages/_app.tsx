@@ -42,16 +42,16 @@ const { chains, provider, webSocketProvider } = configureChains(
   [publicProvider()]
 );
 
-const projectId = 'YOUR_PROJECT_ID';
+const projectId = '';
 
 const { wallets } = getDefaultWallets({
-  appName: 'RainbowKit Mint NFT Demo',
+  appName: 'Ticketchain',
   projectId,
   chains,
 });
 
 const demoAppInfo = {
-  appName: 'RainbowKit Mint NFT Demo',
+  appName: 'Ticketchain',
 };
 
 const connectors = connectorsForWallets([
