@@ -150,7 +150,9 @@ const Home: NextPage = () => {
         </div>
 
         <div>Watch Taylor Swift Live @Maddison Square Gardens</div>
-        <p></p>
+        <p style={{ margin: '12px 0 24px' }}>
+              {totalMinted} Purchased so far!
+            </p>
 
         <div>
 
